@@ -1,10 +1,8 @@
 tasks:
-  - before: |
-    init: |
+  - init: |
       pip3 install poetry
       poetry config virtualenvs.in-project true
       poetry install
-    command: |
 vscode:
   extensions:
     - ms-python.python
