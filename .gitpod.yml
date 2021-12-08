@@ -3,6 +3,3 @@ tasks:
       pip3 install poetry
       poetry config virtualenvs.create false
       poetry install
-vscode:
-  extensions:
-    - littlefoxteam.vscode-python-test-adapter@0.3.16:tZ/6xOSSdKUaq6JCUVkD+A==
